@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MyComponents") (type "KiCad") (uri "C:/Users/1amel/Downloads/Aero_sense/Library/MyComponents.pretty") (options "") (descr ""))
+)
