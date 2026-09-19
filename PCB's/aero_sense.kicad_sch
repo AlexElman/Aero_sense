@@ -5,6 +5,466 @@
 	(uuid "4d06510f-84fa-43e7-942b-130a75a96407")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:10164228-0201A1RLF"
 			(pin_names
 				(offset 1.016)
@@ -713,6 +1173,457 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:ANT-GNSSCP-TH18L1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "E"
+				(at 4.5744 0.7629 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ANT-GNSSCP-TH18L1"
+				(at 4.7028 -1.0178 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ANT-GNSSCP-TH18L1:XCVR_ANT-GNSSCP-TH18L1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Antenna GNSS L1 18x18 THM, Internal Platform - LINX | TE Connectivity ANT-GNSSCP-TH18L1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "CREATOR" "KARTHIK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ANT-GNSSCP-TH18L1/TE+Connectivity/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ANT-GNSSCP-TH18L1/TE+Connectivity/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "ANT-GNSSCP-TH18L1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "CAD_BUILD" "TE OEM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "ANT-GNSSCP-TH18L1_0_0"
+				(polyline
+					(pts
+						(xy 1.143 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -3.302) (xy 3.302 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -4.064) (xy 2.794 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.937 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.143 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:ICM-42688-P"
 			(pin_names
 				(offset 1.016)
@@ -1168,6 +2079,952 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:MS560702BA03-00"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.1649 10.9272 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MS560702BA03-00"
+				(at -10.1798 -12.7248 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MS560702BA03-00:SON125P500X300X100-8N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MS5607-02BA03 Series 3 V 1 to 120 kPa Absolute Barometric Pressure Sensor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Comment" "MS560702BA03-00"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SMD-8 TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MS560702BA03-00/TE+Connectivity+Alcoswitch+Switches/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC7351B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MS560702BA03-00/TE+Connectivity+Alcoswitch+Switches/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "MS560702BA03-00"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "EU_RoHS_Compliance" "Compliant"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TE CONNECTIVITY"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "MS560702BA03-00_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "PS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "~{CSB}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(hide yes)
+					(name "~{CSB}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SDI/SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:SGP41-D-R4"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SGP41-D-R4"
+				(at -10.16 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SGP41-D-R4:XDCR_SGP41-D-R4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Air Quality Sensor VOC and NOx Gas Sensor 3.3V 6-Pin DFN EP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Sensirion"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.95 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SGP41-D-R4/Sensirion/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SGP41-D-R4/Sensirion/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SGP41-D-R4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Sensirion"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SGP41-D-R4_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "N/A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VDDH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional clock
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:SHT45-AD1F-R2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SHT45-AD1F-R2"
+				(at -10.16 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SHT45-AD1F-R2:SHT4X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Digital Relative Humidity Temperature Sensor, ±1.0 %RH, ±0.1 °C, Ultra-Low-Power, with filtermembrane"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Sensirion"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SHT45-AD1F-R2/Sensirion/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "SHT45-AD1F-R2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SHT45-AD1F-R2/Sensirion/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SHT45-AD1F-R2_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9702,6 +11559,1192 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 397.51 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02025081-7841-43f2-a951-3efa5b5e0d64")
+	)
+	(junction
+		(at 467.36 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091511db-ffc5-4d42-9f13-624458315b1d")
+	)
+	(junction
+		(at 429.26 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b3bd1e7-eab0-45c4-afb8-f4361e9f41e0")
+	)
+	(junction
+		(at 422.91 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bfcbeae-57d3-4544-a03f-c42b307af8a2")
+	)
+	(junction
+		(at 397.51 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa44a4f-e31b-4897-8fca-ba12b623a077")
+	)
+	(junction
+		(at 467.36 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ac51f6-4421-4603-8b5f-02e3c83c4601")
+	)
+	(junction
+		(at 441.96 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "280a65d8-455b-4c03-a4f1-7716c396a234")
+	)
+	(junction
+		(at 467.36 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bc8d8de-bd43-4a76-a457-183d15e34305")
+	)
+	(junction
+		(at 480.06 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e540b6a-eee7-4486-a0eb-8308d759d96f")
+	)
+	(junction
+		(at 505.46 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "345458cf-b4d2-4e84-8acf-0704727a3aca")
+	)
+	(junction
+		(at 505.46 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "390f7476-9637-4edb-b55c-8bf63e1ee327")
+	)
+	(junction
+		(at 397.51 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b75dedb-d31c-48af-96a0-f0f567355458")
+	)
+	(junction
+		(at 454.66 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f480fd1-57fa-4c60-9e7c-6b0513c8d808")
+	)
+	(junction
+		(at 543.56 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40000594-bda2-44d6-a275-15627bc00b96")
+	)
+	(junction
+		(at 441.96 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a1244f-9104-46d6-bea4-4a03e3aecb1c")
+	)
+	(junction
+		(at 346.71 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55c0097a-17e3-4aab-b70e-d5679c25cf79")
+	)
+	(junction
+		(at 505.46 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59f16329-215b-4653-b83a-da166a58e3dc")
+	)
+	(junction
+		(at 543.56 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b8ddc6e-e231-4adf-8e16-f8a92feb1f87")
+	)
+	(junction
+		(at 530.86 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c72efa6-c7be-49af-8e8f-cb578942cb2e")
+	)
+	(junction
+		(at 346.71 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e80c29c-c7f7-479f-ba30-a136b8ecf39c")
+	)
+	(junction
+		(at 480.06 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b6eeb8-267e-4694-ad67-24eb3b10a999")
+	)
+	(junction
+		(at 397.51 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f78c468-04e9-4a06-a182-106b122a2967")
+	)
+	(junction
+		(at 505.46 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "856012f5-d293-41d0-9536-e97100b11ef4")
+	)
+	(junction
+		(at 492.76 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895fa965-8791-4f3c-bd59-ff2a58329e44")
+	)
+	(junction
+		(at 518.16 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aaa9410-223b-43d2-adb8-3c97b7d0c97e")
+	)
+	(junction
+		(at 492.76 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f5fba0f-aace-49ce-9326-6b4adb5ba29a")
+	)
+	(junction
+		(at 346.71 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90b6bb01-031c-4d4a-9450-4aef6aa85a8c")
+	)
+	(junction
+		(at 397.51 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93d6fe4d-0e72-4071-a5ed-6afd6c849515")
+	)
+	(junction
+		(at 441.96 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2419270-e9e1-44b6-aff5-dd7909a0ca1c")
+	)
+	(junction
+		(at 429.26 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a55c8c5d-5e9f-494a-9297-01a1276d3c1a")
+	)
+	(junction
+		(at 454.66 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa0d12f9-44f9-4e75-9847-32bca29cc40a")
+	)
+	(junction
+		(at 397.51 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa336ddd-d348-49f7-93c9-0e04fcf3e922")
+	)
+	(junction
+		(at 492.76 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50f1f0e-43a3-4ce3-bf5a-e589d5cc8499")
+	)
+	(junction
+		(at 415.29 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ac839a-5b32-41b7-8bf3-7ac9c5c6d3b5")
+	)
+	(junction
+		(at 346.71 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1707b55-cd67-481b-861e-29f42127aadb")
+	)
+	(junction
+		(at 429.26 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c921d7af-392e-4d39-8f2d-3a413cab60cf")
+	)
+	(junction
+		(at 397.51 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d377ae7d-b4c0-42e5-b6b8-ae9e692a5e98")
+	)
+	(junction
+		(at 541.02 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d59520ac-6136-4da1-ab93-41bfb027043b")
+	)
+	(junction
+		(at 454.66 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9811344-4ecb-44c9-8354-ddb5be070b70")
+	)
+	(junction
+		(at 346.71 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daa78f07-5851-459a-a9a5-1f66ce3c1f13")
+	)
+	(junction
+		(at 454.66 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df1135c9-110e-41ab-b07d-c039c7698ba7")
+	)
+	(junction
+		(at 415.29 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e337ecb0-e9a8-46c9-a790-6d715055f8e5")
+	)
+	(junction
+		(at 480.06 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37864a0-d5a3-4c1a-bfe4-33638d825e8a")
+	)
+	(junction
+		(at 441.96 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7afb809-7309-4bfb-8619-db4e6bcdb1f3")
+	)
+	(junction
+		(at 467.36 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e88b4a22-99e7-4ec6-9624-c33468000dce")
+	)
+	(junction
+		(at 397.51 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e97883c7-6bdd-471e-afad-f8ec53064415")
+	)
+	(junction
+		(at 346.71 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaae6aca-aaf5-42a0-847e-1c18b11d6e51")
+	)
+	(junction
+		(at 429.26 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb409e9f-9dee-4e5d-98d6-4e0de15cd69c")
+	)
+	(junction
+		(at 346.71 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed2ebb16-da6c-422c-8654-75e806791245")
+	)
+	(junction
+		(at 530.86 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eee9d69a-5350-4bf2-a78e-528562db5117")
+	)
+	(junction
+		(at 397.51 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef83d515-102f-404b-bf23-5ceb95aaf028")
+	)
+	(junction
+		(at 397.51 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6889201-7a34-42b4-ae45-0f70cacef5e0")
+	)
+	(junction
+		(at 480.06 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7360074-0091-4881-86d9-3eb296667390")
+	)
+	(junction
+		(at 492.76 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79ef869-8bdf-41ec-8601-90362b234e4e")
+	)
+	(junction
+		(at 518.16 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f894e48a-681d-48a5-98b9-5a693986c3a3")
+	)
+	(wire
+		(pts
+			(xy 505.46 161.29) (xy 518.16 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bb0ab0-db51-4a41-a475-bf6f0c0df11b")
+	)
+	(wire
+		(pts
+			(xy 492.76 144.78) (xy 505.46 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dd11ce-38c3-4755-906b-950a9442e5cb")
+	)
+	(wire
+		(pts
+			(xy 422.91 121.92) (xy 422.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d4358e-0865-4dcf-9fb0-789eb52ee966")
+	)
+	(wire
+		(pts
+			(xy 480.06 144.78) (xy 492.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a20f99f-3a32-4522-b0bf-42e20ae36983")
+	)
+	(wire
+		(pts
+			(xy 397.51 102.87) (xy 397.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c059b9b-cb5d-4681-82d7-65e74f5a7cc3")
+	)
+	(wire
+		(pts
+			(xy 530.86 153.67) (xy 543.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118ac257-186b-4342-99d3-dc34e075f6db")
+	)
+	(wire
+		(pts
+			(xy 541.02 144.78) (xy 553.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119ff60c-dd21-4963-987f-30572e50abaa")
+	)
+	(wire
+		(pts
+			(xy 467.36 161.29) (xy 480.06 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141efed2-dbf8-455e-9b1e-261c782db48e")
+	)
+	(wire
+		(pts
+			(xy 397.51 97.79) (xy 397.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d547685-ea11-4aca-ab82-6e1c546e1f9f")
+	)
+	(wire
+		(pts
+			(xy 429.26 137.16) (xy 441.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea8e4c7-8890-4e32-a8bc-416ca6f16f49")
+	)
+	(wire
+		(pts
+			(xy 438.15 114.3) (xy 436.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21fa8093-c10f-436c-a001-f3585becf4b3")
+	)
+	(wire
+		(pts
+			(xy 429.26 153.67) (xy 441.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e8bf35-c25c-44f8-a52b-85667187831e")
+	)
+	(wire
+		(pts
+			(xy 467.36 137.16) (xy 480.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f30f18-c563-4323-bbe9-ddaba5ec6ff7")
+	)
+	(wire
+		(pts
+			(xy 420.37 114.3) (xy 422.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284fafb0-135f-4aa6-a8f4-d8d73c94254b")
+	)
+	(wire
+		(pts
+			(xy 422.91 114.3) (xy 429.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aae0d7a-e736-4c81-b105-0c59eca05115")
+	)
+	(wire
+		(pts
+			(xy 346.71 102.87) (xy 346.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2e7d5a-6290-44e1-92b2-86dbb676020b")
+	)
+	(wire
+		(pts
+			(xy 415.29 161.29) (xy 429.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c564655-87e1-4c02-bda9-ad0148d0ce14")
+	)
+	(wire
+		(pts
+			(xy 480.06 137.16) (xy 492.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a2be06-f8c2-4e2c-9ed5-4aa9ed327e57")
+	)
+	(wire
+		(pts
+			(xy 397.51 87.63) (xy 397.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42685099-1900-4e8a-be52-0cc1c1d71f0d")
+	)
+	(wire
+		(pts
+			(xy 429.26 161.29) (xy 441.96 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e14538-870a-4386-8c18-9885375a9c46")
+	)
+	(wire
+		(pts
+			(xy 467.36 144.78) (xy 480.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46439a16-d271-4485-bee1-9e7a911d0e01")
+	)
+	(wire
+		(pts
+			(xy 397.51 95.25) (xy 397.51 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479f7485-4bd0-44a2-a780-c31f0361ecfe")
+	)
+	(wire
+		(pts
+			(xy 429.26 144.78) (xy 441.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e23842-98ed-48dd-9fc6-5c0cc9844741")
+	)
+	(wire
+		(pts
+			(xy 441.96 137.16) (xy 454.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5346ef67-c599-4bbf-bc80-b45f2df02ad9")
+	)
+	(wire
+		(pts
+			(xy 467.36 153.67) (xy 480.06 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5578aace-47f7-40a1-9e50-5cf3ccc8fbf2")
+	)
+	(wire
+		(pts
+			(xy 397.51 90.17) (xy 397.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e18696-e37f-47bb-ae80-fa746e8d5f08")
+	)
+	(wire
+		(pts
+			(xy 505.46 144.78) (xy 518.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b86e8bb-e4bd-437b-84a4-8a91099ab922")
+	)
+	(wire
+		(pts
+			(xy 505.46 153.67) (xy 518.16 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65314bb3-075c-4f5c-bf9e-c60bf521121d")
+	)
+	(wire
+		(pts
+			(xy 397.51 100.33) (xy 397.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a228be-8462-458f-9a5b-e191a16a865a")
+	)
+	(wire
+		(pts
+			(xy 541.02 137.16) (xy 553.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4722d4-695b-4571-aa75-16b3836cce53")
+	)
+	(wire
+		(pts
+			(xy 346.71 97.79) (xy 346.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c055bf0-4e30-425a-a1f6-530ced50635b")
+	)
+	(wire
+		(pts
+			(xy 480.06 153.67) (xy 492.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c97b39f-043d-4b02-8c02-46c6484d2263")
+	)
+	(wire
+		(pts
+			(xy 530.86 161.29) (xy 543.56 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7232d7a3-4919-41f7-a862-6cc0c868c741")
+	)
+	(wire
+		(pts
+			(xy 454.66 137.16) (xy 467.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755ceb21-7f87-4281-ad0c-97ca62909e2f")
+	)
+	(wire
+		(pts
+			(xy 441.96 144.78) (xy 454.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796799d3-ac91-4f63-bfba-b848879b1236")
+	)
+	(wire
+		(pts
+			(xy 346.71 85.09) (xy 346.71 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a403069-e9a9-48b2-8825-47a458decb94")
+	)
+	(wire
+		(pts
+			(xy 397.51 105.41) (xy 397.51 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba16bf1-e1f8-4290-94d8-c009bfc62796")
+	)
+	(wire
+		(pts
+			(xy 415.29 144.78) (xy 429.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf20a70-16c0-4be0-842e-1628ca47b117")
+	)
+	(wire
+		(pts
+			(xy 543.56 153.67) (xy 556.26 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da1d525-d08a-406a-ba74-22f1780df2c2")
+	)
+	(wire
+		(pts
+			(xy 415.29 153.67) (xy 429.26 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec7b0eb-c8f4-4a02-96e4-2b499a741634")
+	)
+	(wire
+		(pts
+			(xy 397.51 92.71) (xy 397.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a63956-cdab-46ed-834a-2a7a189dc22f")
+	)
+	(wire
+		(pts
+			(xy 492.76 137.16) (xy 505.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d28e16-31c5-468f-8fc1-5c9c28ca09e4")
+	)
+	(wire
+		(pts
+			(xy 492.76 153.67) (xy 505.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f671a63-b92e-4dd3-b5d5-69e4059ef27d")
+	)
+	(wire
+		(pts
+			(xy 397.51 110.49) (xy 397.51 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f71bcf9-e732-485c-b820-507411f4cfca")
+	)
+	(wire
+		(pts
+			(xy 480.06 161.29) (xy 492.76 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9354e22a-b60a-4651-acf6-ef3f7b2a6f57")
+	)
+	(wire
+		(pts
+			(xy 454.66 153.67) (xy 467.36 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a14c81c-1d52-4189-a62e-fa808db0345d")
+	)
+	(wire
+		(pts
+			(xy 346.71 87.63) (xy 346.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e763cbb-c0a9-4fde-90e6-64f0d43ebf26")
+	)
+	(wire
+		(pts
+			(xy 543.56 161.29) (xy 556.26 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5235991-7b0e-4f8e-95a8-6c561040234f")
+	)
+	(wire
+		(pts
+			(xy 492.76 161.29) (xy 505.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e6d9c0-35be-45e3-883c-61a131bb2e59")
+	)
+	(wire
+		(pts
+			(xy 420.37 124.46) (xy 422.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94bf7ad-3891-4aa7-a564-5d1b33338655")
+	)
+	(wire
+		(pts
+			(xy 346.71 95.25) (xy 346.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74c07db-535e-4a31-9e87-78c232328a83")
+	)
+	(wire
+		(pts
+			(xy 518.16 153.67) (xy 530.86 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74f8534-d644-4eec-a72c-59cb198a9996")
+	)
+	(wire
+		(pts
+			(xy 415.29 137.16) (xy 429.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5fdbc9-10b7-4b8b-a8dc-422e692c0e14")
+	)
+	(wire
+		(pts
+			(xy 454.66 161.29) (xy 467.36 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6edd20-366d-4715-9826-dbfe7c0a7bea")
+	)
+	(wire
+		(pts
+			(xy 441.96 161.29) (xy 454.66 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01719a2-fcf2-4655-8312-d706256e8a0d")
+	)
+	(wire
+		(pts
+			(xy 454.66 144.78) (xy 467.36 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc49ccaf-f9cd-4de6-a460-05c5bf00e2b8")
+	)
+	(wire
+		(pts
+			(xy 505.46 137.16) (xy 518.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5eaf79-54dc-4db0-b036-bb6a7d671137")
+	)
+	(wire
+		(pts
+			(xy 346.71 100.33) (xy 346.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d088e3d3-b137-4cca-9654-952a93527307")
+	)
+	(wire
+		(pts
+			(xy 397.51 107.95) (xy 397.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58f6b0b-aea5-4eb6-869a-0d931c8fe902")
+	)
+	(wire
+		(pts
+			(xy 441.96 153.67) (xy 454.66 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84a86d0-6939-443d-ac79-e1e7d9326b5d")
+	)
+	(wire
+		(pts
+			(xy 346.71 90.17) (xy 346.71 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd493f0c-e7b0-450b-8a4b-11bc5af4ec89")
+	)
+	(wire
+		(pts
+			(xy 518.16 161.29) (xy 530.86 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f8b31b-10fe-43dc-bd21-9f878d0ac500")
+	)
+	(wire
+		(pts
+			(xy 346.71 92.71) (xy 346.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f95d70f0-7979-4884-9292-b727dd7f3166")
+	)
+	(wire
+		(pts
+			(xy 397.51 85.09) (xy 397.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96861ca-022c-4ad5-b7fd-676cfdd9e174")
+	)
+	(global_label "VDDA"
+		(shape input)
+		(at 420.37 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08be6e2a-7835-4f40-ab61-0257d1f0a0e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 412.6676 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VREF+"
+		(shape input)
+		(at 346.71 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d8d90f6-e264-4c97-bbef-74277de4ba74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 337.5562 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VDD_MCU"
+		(shape input)
+		(at 415.29 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6deb5893-b703-4b8a-850a-db793b075b7c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.6567 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VDD_MCU"
+		(shape input)
+		(at 438.15 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76c63bae-1c21-419a-a18c-1e6e26a978ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 449.7833 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VDDA"
+		(shape input)
+		(at 397.51 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86643f4d-6198-42cf-88f4-4f835a050b72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 405.2124 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VDD_MCU"
+		(shape input)
+		(at 541.02 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c97670f-b642-4ba4-8a22-2ad7cddb9110")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 529.3867 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VDD_MCU"
+		(shape input)
+		(at 397.51 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a313cfe9-261e-4950-8595-0eeb2c7c1ebf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 409.1433 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VDD_MCU"
+		(shape input)
+		(at 415.29 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb0ba853-0f4e-4400-9264-03da27efa373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 403.6567 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VREF+"
+		(shape input)
+		(at 420.37 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9dd589c-cde0-4f26-9058-a9884a05a227")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.2162 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Library:10164228-0201A1RLF")
 		(at 87.63 160.02 0)
@@ -9880,6 +12923,906 @@
 			(project "aero_sense"
 				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 541.02 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1137f8be-9c21-4db3-a11c-c4143c2cdc70")
+		(property "Reference" "C10"
+			(at 544.83 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 544.83 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 541.9852 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 541.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 541.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f8a547d-17cf-4812-b2f7-9609259142b8")
+		)
+		(pin "2"
+			(uuid "48b9cbb3-deb6-4432-881f-918257f9a2bd")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:MS560702BA03-00")
+		(at 144.78 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14ae7fc2-e04d-430f-b38b-c54c0dc44119")
+		(property "Reference" "U4"
+			(at 144.78 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS560702BA03-00"
+			(at 144.78 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyComponents:SON125P500X300X100-8N"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MS5607-02BA03 Series 3 V 1 to 120 kPa Absolute Barometric Pressure Sensor"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Comment" "MS560702BA03-00"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-8 TE Connectivity"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MS560702BA03-00/TE+Connectivity+Alcoswitch+Switches/view-part/?ref=eda"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC7351B"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MS560702BA03-00/TE+Connectivity+Alcoswitch+Switches/view-part/?ref=snap"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "MS560702BA03-00"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "EU_RoHS_Compliance" "Compliant"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE CONNECTIVITY"
+			(at 144.78 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "6"
+			(uuid "9f7ef438-1afe-418b-8abe-aa87794917f6")
+		)
+		(pin "3"
+			(uuid "a27de016-99e0-435c-b153-20eaf6666445")
+		)
+		(pin "5"
+			(uuid "5d04dfb7-16a4-4436-8d71-865cc915e4d0")
+		)
+		(pin "4"
+			(uuid "dcc5499d-6d3c-4557-a418-9fc81372ddfb")
+		)
+		(pin "7"
+			(uuid "5f4a1bcd-9f0d-4f9a-92b2-1592dbf04dc4")
+		)
+		(pin "8"
+			(uuid "2689f383-28d5-434e-9a35-2b8d5fe7f507")
+		)
+		(pin "2"
+			(uuid "32e7a947-1e1f-48ee-9642-f08cb80f9498")
+		)
+		(pin "1"
+			(uuid "12c02e2f-20f5-453a-9932-39dac164b8fd")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 429.26 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1646b364-5f95-4c74-8d27-847987f18a0b")
+		(property "Reference" "C2"
+			(at 433.07 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 433.07 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 430.2252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 429.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cc57049-1cb6-4b8a-8419-e235a041a583")
+		)
+		(pin "2"
+			(uuid "28736702-e651-47f8-a1e6-d73840ec64cc")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 415.29 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2473f3b2-9bad-4f44-81da-d1aafbb1ed6e")
+		(property "Reference" "C12"
+			(at 419.1 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 419.1 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 416.2552 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 415.29 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98e6784a-4c71-4b4c-bab8-672b503b5ec8")
+		)
+		(pin "2"
+			(uuid "f866eaf8-97c7-4b8d-b4ed-0dbca36e1f1d")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 505.46 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2692e723-61f3-43d7-b44c-5da5ea322021")
+		(property "Reference" "C8"
+			(at 509.27 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 509.27 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 506.4252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 505.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 505.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e929a9ed-e7c0-46c7-81ac-02ead55070bd")
+		)
+		(pin "2"
+			(uuid "082704a1-b12d-481c-a92e-41110406a913")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 541.02 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f918298-2d15-422e-87a7-21082743d1a0")
+		(property "Reference" "#PWR02"
+			(at 541.02 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 541.02 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 541.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 541.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 541.02 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46dad7a7-1db4-473f-91b5-172a4ca13292")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:SHT45-AD1F-R2")
+		(at 179.07 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "305c5e10-ae77-4cb5-a953-fda49e1f1c61")
+		(property "Reference" "U2"
+			(at 179.07 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SHT45-AD1F-R2"
+			(at 179.07 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyComponents:SHT4X"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Digital Relative Humidity Temperature Sensor, ±1.0 %RH, ±0.1 °C, Ultra-Low-Power, with filtermembrane"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Sensirion"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SHT45-AD1F-R2/Sensirion/view-part/?ref=snap"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SHT45-AD1F-R2"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SHT45-AD1F-R2/Sensirion/view-part/?ref=eda"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "4"
+			(uuid "2cbad39d-4a4e-4a2e-b481-cb8a77d5d3e9")
+		)
+		(pin "2"
+			(uuid "f19c964e-940c-4ba9-9802-0b706619cbb0")
+		)
+		(pin "3"
+			(uuid "14b57055-f1fc-4309-9ff2-b5f3e24dc201")
+		)
+		(pin "1"
+			(uuid "ed8e78bf-daf2-49b3-98aa-c077e3c48bac")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 415.29 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a048115-4263-4fbc-a566-7ec5dd89c065")
+		(property "Reference" "#PWR03"
+			(at 415.29 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 415.29 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 415.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d84d8b8f-c98e-4149-8307-adf4364d4cca")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10069,6 +14012,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 543.56 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a45caf-4ae7-424a-9990-cac6884e74a6")
+		(property "Reference" "C22"
+			(at 547.37 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 547.37 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 544.5252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 543.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 543.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e18da6d8-1f10-4d1f-819a-3f46dbbe123c")
+		)
+		(pin "2"
+			(uuid "7bf893c5-f4c8-4594-a8ce-20ca4ca495db")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:10164228-0201A1RLF")
 		(at 44.45 69.85 0)
 		(unit 1)
@@ -10252,8 +14277,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 99.06 64.77 0)
+		(lib_id "Device:R")
+		(at 422.91 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10262,30 +14287,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e6aad48-9644-4493-a16e-9adbdec9cbef")
-		(property "Reference" "#PWR01"
-			(at 99.06 71.12 0)
-			(hide yes)
+		(uuid "7088ec5e-56c6-4471-bbc0-58eaa34886d9")
+		(property "Reference" "R1"
+			(at 425.45 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 99.06 69.85 0)
+		(property "Value" "R"
+			(at 425.45 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 99.06 64.77 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 421.132 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10296,7 +14322,744 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 64.77 0)
+			(at 422.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 422.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d397b29e-030f-412d-85a1-a5bf2bd59178")
+		)
+		(pin "1"
+			(uuid "307a80a5-ca2d-48a1-83fd-5ba350f08f32")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 492.76 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f746eb-1407-4d99-9651-47a69371314a")
+		(property "Reference" "C18"
+			(at 496.57 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 496.57 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 493.7252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 492.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 492.76 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2590fcce-d9d1-4628-8c32-e051195a6f0f")
+		)
+		(pin "2"
+			(uuid "36984a4e-bcee-4420-abf9-99d084b1fb03")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 518.16 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "771fde1a-e3e1-4c8a-b118-0d92d17f4ffb")
+		(property "Reference" "C9"
+			(at 521.97 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 521.97 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 519.1252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 518.16 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 518.16 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b87f69d1-2d42-431b-bbbc-254553d895d2")
+		)
+		(pin "2"
+			(uuid "d0c7dd16-7d3e-463c-944d-dbe591c67983")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 556.26 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78061638-957e-4e14-a844-d59ba41802d6")
+		(property "Reference" "C23"
+			(at 560.07 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 560.07 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 557.2252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 556.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 556.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdf9e5a5-97d5-4c82-a50d-e058a947ae19")
+		)
+		(pin "2"
+			(uuid "6006625e-c913-43fa-8176-8b8c09d8e92f")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 518.16 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8448efc9-7386-4312-8377-404d8fd4d99c")
+		(property "Reference" "C20"
+			(at 521.97 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 521.97 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 519.1252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 518.16 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 518.16 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c105db12-791c-4c47-8e4d-5d13a3c0f2b4")
+		)
+		(pin "2"
+			(uuid "0d598709-b725-46bf-9024-1f144458a430")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 441.96 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96384286-e91a-4c18-8eea-dc88ef96d4d2")
+		(property "Reference" "C14"
+			(at 445.77 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 445.77 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 442.9252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 441.96 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9304967f-50ff-4ada-85cb-9d2b1c54858e")
+		)
+		(pin "2"
+			(uuid "276242d3-613a-49bb-a5bd-79b063f41d5f")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 492.76 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96d211b7-b6ad-4cad-8edb-1d5156aca637")
+		(property "Reference" "C7"
+			(at 496.57 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 496.57 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 493.7252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 492.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 492.76 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a48e31ab-1498-4120-ad48-54cfea6da301")
+		)
+		(pin "2"
+			(uuid "d5f384f9-4c1b-4c99-95b1-f3c293fa4a2b")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 467.36 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97848dc1-202b-441f-b207-a654866922c0")
+		(property "Reference" "C16"
+			(at 471.17 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 471.17 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 468.3252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 467.36 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ce52509-cd6c-42cb-ab85-32ab65036abc")
+		)
+		(pin "2"
+			(uuid "ff0f3201-3a1a-44eb-ae6f-3d7cdf9d3a7c")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 454.66 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99728ae2-a7ef-4b64-9408-0040f01b0ad0")
+		(property "Reference" "C15"
+			(at 458.47 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 458.47 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 455.6252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 454.66 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 454.66 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf794881-df17-495e-8d6c-b875de537bff")
+		)
+		(pin "2"
+			(uuid "047ec212-740a-4714-a130-55c6cc342e4e")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e6aad48-9644-4493-a16e-9adbdec9cbef")
+		(property "Reference" "#PWR01"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10307,7 +15070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 64.77 0)
+			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,8 +15276,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:ICM-42688-P")
-		(at 158.75 137.16 0)
+		(lib_id "Device:C")
+		(at 415.29 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10523,9 +15286,32 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d34e9257-af2e-4f3f-b4a2-1d24febb4bdc")
-		(property "Reference" "U5"
-			(at 158.75 116.84 0)
+		(uuid "a0c8affd-675b-479f-847c-b44d2c545f7f")
+		(property "Reference" "C1"
+			(at 419.1 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 419.1 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 416.2552 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10534,8 +15320,9 @@
 				)
 			)
 		)
-		(property "Value" "ICM-42688-P"
-			(at 158.75 119.38 0)
+		(property "Datasheet" ""
+			(at 415.29 140.97 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10544,8 +15331,68 @@
 				)
 			)
 		)
-		(property "Footprint" "MyComponents:PQFN50P300X250X97-14N"
-			(at 158.75 137.16 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 415.29 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2b5d782-3afe-4dec-9034-7344fdb813b8")
+		)
+		(pin "2"
+			(uuid "0ca51695-892c-47fb-a22a-51f72010265d")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:ANT-GNSSCP-TH18L1")
+		(at 238.76 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac281ea-fe43-48f1-9a2b-ade217403373")
+		(property "Reference" "E1"
+			(at 243.84 139.1919 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ANT-GNSSCP-TH18L1"
+			(at 243.84 141.7319 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyComponents:XCVR_ANT-GNSSCP-TH18L1"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +15404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 137.16 0)
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,20 +15414,8 @@
 				)
 			)
 		)
-		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor - Output"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "TDK InvenSense"
-			(at 158.75 137.16 0)
+		(property "Description" "Antenna GNSS L1 18x18 THM, Internal Platform - LINX | TE Connectivity ANT-GNSSCP-TH18L1"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10591,8 +15426,8 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.97mm"
-			(at 158.75 137.16 0)
+		(property "MF" "TE Connectivity"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10603,8 +15438,20 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "LGA-14 TDK InvenSense"
-			(at 158.75 137.16 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4 mm"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "KARTHIK"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10616,7 +15463,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 158.75 137.16 0)
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,8 +15474,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=eda"
-			(at 158.75 137.16 0)
+		(property "Package" "None"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10639,8 +15486,8 @@
 				(justify bottom)
 			)
 		)
-		(property "STANDARD" "IPC-7351B"
-			(at 158.75 137.16 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/ANT-GNSSCP-TH18L1/TE+Connectivity/view-part/?ref=eda"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10651,8 +15498,8 @@
 				(justify bottom)
 			)
 		)
-		(property "PARTREV" "1.2"
-			(at 158.75 137.16 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10663,8 +15510,8 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=snap"
-			(at 158.75 137.16 0)
+		(property "PARTREV" "A"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,8 +15522,44 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "ICM-42688-P"
-			(at 158.75 137.16 0)
+		(property "VERIFIER" ""
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ANT-GNSSCP-TH18L1/TE+Connectivity/view-part/?ref=snap"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ANT-GNSSCP-TH18L1"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CAD_BUILD" "TE OEM"
+			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10688,7 +15571,718 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 158.75 137.16 0)
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 238.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "fcd7d28e-a1a1-4f5b-8452-cc94f89efe01")
+		)
+		(pin "3"
+			(uuid "9b25b115-21ee-4208-817f-2fc9d0f42d9e")
+		)
+		(pin "4"
+			(uuid "0f34abd4-7e97-47fd-8732-53132b9b4009")
+		)
+		(pin "1"
+			(uuid "af23e47f-8397-4d6d-9f67-ba81770f4af4")
+		)
+		(pin "5"
+			(uuid "32ef198a-5685-4d48-8786-cd0c0350ec8c")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "E1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 480.06 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b60ec3f3-7eaa-4995-a21d-5445d2483966")
+		(property "Reference" "C6"
+			(at 483.87 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 483.87 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 481.0252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 480.06 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 480.06 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de0bc050-a59a-4f72-9510-9ca189f71759")
+		)
+		(pin "2"
+			(uuid "5632af95-a48a-4e25-b359-003f4a447069")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 467.36 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6a54749-29fa-4e21-9880-2552dae622a9")
+		(property "Reference" "C5"
+			(at 471.17 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 471.17 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 468.3252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 467.36 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41c266e1-959c-4092-90de-a54876f7443b")
+		)
+		(pin "2"
+			(uuid "1bc1b590-2264-489c-b53c-1290088f4db4")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 441.96 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd4da837-2af6-4538-82b1-33f3b9a60b23")
+		(property "Reference" "C3"
+			(at 445.77 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 445.77 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 442.9252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 441.96 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1906f695-627f-41fc-b114-d4526cc732ad")
+		)
+		(pin "2"
+			(uuid "b4888b07-f5ea-43a0-b2fa-a42168f29779")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 530.86 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2734182-c87a-469b-ac31-036b26bf7139")
+		(property "Reference" "C21"
+			(at 534.67 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 534.67 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 531.8252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 530.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 530.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0e39303-9b7b-4401-92e1-e08b23ff1fbb")
+		)
+		(pin "2"
+			(uuid "616ae29b-f542-4d45-ad0d-a250443bcd27")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 454.66 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c72fed4c-31ad-4a99-8896-a6afc196b9e3")
+		(property "Reference" "C4"
+			(at 458.47 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 458.47 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 455.6252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 454.66 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 454.66 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "930ee8ea-2a13-4963-83a0-e3746e7e9090")
+		)
+		(pin "2"
+			(uuid "e993f69e-c443-4c3f-b2c4-7107a868eb1e")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 415.29 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d30e5879-5ffa-44ec-b40c-81b9f3f9444c")
+		(property "Reference" "#PWR04"
+			(at 415.29 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 415.29 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 415.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 415.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 415.29 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50bf0c93-a91f-4e8d-8934-63d7d369131c")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:ICM-42688-P")
+		(at 193.04 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d34e9257-af2e-4f3f-b4a2-1d24febb4bdc")
+		(property "Reference" "U5"
+			(at 193.04 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICM-42688-P"
+			(at 193.04 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyComponents:PQFN50P300X250X97-14N"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor - Output"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TDK InvenSense"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.97mm"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "LGA-14 TDK InvenSense"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=eda"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ICM-42688-P/TDK+InvenSense/view-part/?ref=snap"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ICM-42688-P"
+			(at 193.04 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 193.04 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10700,7 +16294,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK InvenSense"
-			(at 158.75 137.16 0)
+			(at 193.04 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10757,6 +16351,170 @@
 			(project "aero_sense"
 				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 553.72 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5ff56e2-e798-4a1a-9855-6d73da0b4694")
+		(property "Reference" "C11"
+			(at 557.53 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 557.53 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 554.6852 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 553.72 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 553.72 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "223075aa-be9b-439b-a241-dd15fb7166d8")
+		)
+		(pin "2"
+			(uuid "abc46e14-6692-4d66-bd91-c52fc6d75ef8")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 480.06 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4149f9b-c7c5-45f8-9878-8faa65902d45")
+		(property "Reference" "C17"
+			(at 483.87 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 483.87 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 481.0252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 480.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 480.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b0cc209-915b-4051-8822-59e88c6312c5")
+		)
+		(pin "2"
+			(uuid "277f9a36-a8e6-40c2-8763-b95085dc2b74")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11281,7 +17039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e4f741e2-384a-45c8-88b9-90297cc55964")
+		(uuid "e4f741e2-384a-45c8-88b9-90297cc55965")
 		(property "Reference" "U1"
 			(at 237.49 22.86 0)
 			(show_name no)
@@ -11338,442 +17096,1423 @@
 			)
 		)
 		(pin "73"
-			(uuid "c2f23a7a-1794-46dc-81d2-438a2087467c")
+			(uuid "c2f23a7a-1794-46dc-81d2-438a2087467d")
 		)
 		(pin "82"
-			(uuid "a940aea4-6596-4700-8594-59d3e6c75cc0")
+			(uuid "a940aea4-6596-4700-8594-59d3e6c75cc1")
 		)
 		(pin "70"
-			(uuid "b5ce481b-401e-4f5e-94bb-b8575f41f8fe")
+			(uuid "b5ce481b-401e-4f5e-94bb-b8575f41f8ff")
 		)
 		(pin "80"
-			(uuid "9a993c39-26dd-437b-b1d7-a904b584d5d8")
+			(uuid "9a993c39-26dd-437b-b1d7-a904b584d5d9")
 		)
 		(pin "46"
-			(uuid "fc795f0e-beff-425e-afeb-9b4c7c240c55")
+			(uuid "fc795f0e-beff-425e-afeb-9b4c7c240c56")
 		)
 		(pin "79"
-			(uuid "38c6e11f-3bba-4375-850a-130bf351445b")
+			(uuid "38c6e11f-3bba-4375-850a-130bf351445c")
 		)
 		(pin "77"
-			(uuid "d18bce7c-9a39-4a94-853a-9bd043756afb")
+			(uuid "d18bce7c-9a39-4a94-853a-9bd043756afc")
 		)
 		(pin "76"
-			(uuid "3bbcd4ee-9b2b-40fa-b235-13b996aa0fe6")
+			(uuid "3bbcd4ee-9b2b-40fa-b235-13b996aa0fe7")
 		)
 		(pin "47"
-			(uuid "71af9bc1-23d0-4b7d-93a7-1ebd8a2e52d5")
+			(uuid "71af9bc1-23d0-4b7d-93a7-1ebd8a2e52d6")
 		)
 		(pin "81"
-			(uuid "df62a6b1-e771-4283-9ce0-9ab3c80e28fc")
+			(uuid "df62a6b1-e771-4283-9ce0-9ab3c80e28fd")
 		)
 		(pin "75"
-			(uuid "aadd2153-ae91-48a4-a375-f3aa5c62a71c")
+			(uuid "aadd2153-ae91-48a4-a375-f3aa5c62a71d")
 		)
 		(pin "85"
-			(uuid "f2ab33b8-5a21-41b9-83c6-ec05b9e1b29c")
+			(uuid "f2ab33b8-5a21-41b9-83c6-ec05b9e1b29d")
 		)
 		(pin "78"
-			(uuid "1afd5590-40aa-412b-9185-fb8dbe3823ff")
+			(uuid "1afd5590-40aa-412b-9185-fb8dbe382400")
 		)
 		(pin "48"
-			(uuid "e44d8230-aae7-48ef-9ac9-2aba9a9802ca")
+			(uuid "e44d8230-aae7-48ef-9ac9-2aba9a9802cb")
 		)
 		(pin "69"
-			(uuid "7ec67a30-b2cd-4b14-b941-94e066c6afbe")
+			(uuid "7ec67a30-b2cd-4b14-b941-94e066c6afbf")
 		)
 		(pin "74"
-			(uuid "35fc8523-6435-4e65-a0c0-21e111b166c5")
+			(uuid "35fc8523-6435-4e65-a0c0-21e111b166c6")
 		)
 		(pin "86"
-			(uuid "1172737c-f7d1-4a78-9cdb-a27775a7dd07")
+			(uuid "1172737c-f7d1-4a78-9cdb-a27775a7dd08")
 		)
 		(pin "6"
-			(uuid "1c91436f-33aa-4532-825a-3be505fd3b85")
+			(uuid "1c91436f-33aa-4532-825a-3be505fd3b86")
 		)
 		(pin "138"
-			(uuid "17f934bd-ed98-404f-9a95-00f6c48cc222")
+			(uuid "17f934bd-ed98-404f-9a95-00f6c48cc223")
 		)
 		(pin "142"
-			(uuid "7e77a9e2-af66-4531-8aec-87dd3adff60c")
+			(uuid "7e77a9e2-af66-4531-8aec-87dd3adff60d")
 		)
 		(pin "143"
-			(uuid "255c4db1-8d5d-421b-ba11-1ea25e189eb2")
+			(uuid "255c4db1-8d5d-421b-ba11-1ea25e189eb3")
 		)
 		(pin "141"
-			(uuid "3db5b827-691a-4451-8780-0ae8913ba9b0")
+			(uuid "3db5b827-691a-4451-8780-0ae8913ba9b1")
 		)
 		(pin "32"
-			(uuid "df331998-7794-4449-9fb2-9d7e90318de2")
+			(uuid "df331998-7794-4449-9fb2-9d7e90318de3")
 		)
 		(pin "108"
-			(uuid "4da991a3-4e36-4a39-a10e-c9a25649a5b9")
+			(uuid "4da991a3-4e36-4a39-a10e-c9a25649a5ba")
 		)
 		(pin "31"
-			(uuid "56f14d55-a0d4-444b-9474-cdfdea7facc4")
+			(uuid "56f14d55-a0d4-444b-9474-cdfdea7facc5")
 		)
 		(pin "16"
-			(uuid "2e787c2d-b1dd-408c-9a5d-b9028bd9d657")
+			(uuid "2e787c2d-b1dd-408c-9a5d-b9028bd9d658")
 		)
 		(pin "61"
-			(uuid "9fa6a4f0-b3b7-47cd-a638-c6a37f651eb8")
+			(uuid "9fa6a4f0-b3b7-47cd-a638-c6a37f651eb9")
 		)
 		(pin "106"
-			(uuid "54746887-7f9f-4880-a3a4-456bb175a5cd")
+			(uuid "54746887-7f9f-4880-a3a4-456bb175a5ce")
 		)
 		(pin "95"
-			(uuid "b05ccf0e-15f4-4315-a771-9cf7cbfc67e2")
+			(uuid "b05ccf0e-15f4-4315-a771-9cf7cbfc67e3")
 		)
 		(pin "107"
-			(uuid "5aa2530c-5ba4-4edb-bd02-fcf59a7917f4")
+			(uuid "5aa2530c-5ba4-4edb-bd02-fcf59a7917f5")
 		)
 		(pin "84"
-			(uuid "8dd69431-4fb0-486c-8ee0-0db2e1e063ad")
+			(uuid "8dd69431-4fb0-486c-8ee0-0db2e1e063ae")
 		)
 		(pin "52"
-			(uuid "206831b4-22e0-41ff-a1d8-e8c66ee6c57e")
+			(uuid "206831b4-22e0-41ff-a1d8-e8c66ee6c57f")
 		)
 		(pin "94"
-			(uuid "c0dbcb06-44f1-4dfe-9846-4b01078a1abf")
+			(uuid "c0dbcb06-44f1-4dfe-9846-4b01078a1ac0")
 		)
 		(pin "71"
-			(uuid "9d1b46a8-63d2-40d4-af27-cf64192b8d00")
+			(uuid "9d1b46a8-63d2-40d4-af27-cf64192b8d01")
 		)
 		(pin "72"
-			(uuid "648c8cef-aa0f-4d51-aa11-836b5ec15253")
+			(uuid "648c8cef-aa0f-4d51-aa11-836b5ec15254")
 		)
 		(pin "30"
-			(uuid "f24392c0-bbc2-41bf-8a13-577538f83fe5")
+			(uuid "f24392c0-bbc2-41bf-8a13-577538f83fe6")
 		)
 		(pin "62"
-			(uuid "92e4ee5a-d169-4435-9c76-24bcaed0e640")
+			(uuid "92e4ee5a-d169-4435-9c76-24bcaed0e641")
 		)
 		(pin "38"
-			(uuid "ef761566-d487-41bb-a091-357e3b623e36")
+			(uuid "ef761566-d487-41bb-a091-357e3b623e37")
 		)
 		(pin "120"
-			(uuid "6cea2a6d-56d0-4cc6-b38d-df389cc6f418")
+			(uuid "6cea2a6d-56d0-4cc6-b38d-df389cc6f419")
 		)
 		(pin "51"
-			(uuid "d35e055f-492a-422c-98e8-fb692d4a9476")
+			(uuid "d35e055f-492a-422c-98e8-fb692d4a9477")
 		)
 		(pin "39"
-			(uuid "d90d45ff-55a9-4621-bd3a-f4ceae5895d6")
+			(uuid "d90d45ff-55a9-4621-bd3a-f4ceae5895d7")
 		)
 		(pin "83"
-			(uuid "1d557154-acec-4d3d-a00d-b1ff1b4e2160")
+			(uuid "1d557154-acec-4d3d-a00d-b1ff1b4e2161")
 		)
 		(pin "33"
-			(uuid "c921c8ce-fa54-49ce-8555-c480151cd425")
+			(uuid "c921c8ce-fa54-49ce-8555-c480151cd426")
 		)
 		(pin "17"
-			(uuid "9873e92d-6f52-4fe5-b833-2bc74d89ae5a")
+			(uuid "9873e92d-6f52-4fe5-b833-2bc74d89ae5b")
 		)
 		(pin "121"
-			(uuid "f6fcb2a8-d342-4a1f-8e9e-02478f357f79")
+			(uuid "f6fcb2a8-d342-4a1f-8e9e-02478f357f7a")
 		)
 		(pin "130"
-			(uuid "3bd3b176-9b20-40e1-96be-e6050c52f418")
+			(uuid "3bd3b176-9b20-40e1-96be-e6050c52f419")
 		)
 		(pin "144"
-			(uuid "6423c9f3-35d8-48ba-aacb-3f02234e3cd7")
+			(uuid "6423c9f3-35d8-48ba-aacb-3f02234e3cd8")
 		)
 		(pin "131"
-			(uuid "88bf2e07-61f5-45b6-b618-eb51ddbd3ff2")
+			(uuid "88bf2e07-61f5-45b6-b618-eb51ddbd3ff3")
 		)
 		(pin "133"
-			(uuid "0b546f03-015b-4899-b84c-a25366e986a3")
+			(uuid "0b546f03-015b-4899-b84c-a25366e986a4")
 		)
 		(pin "114"
-			(uuid "c9655b5a-100d-41c1-8940-40d5133a6193")
+			(uuid "c9655b5a-100d-41c1-8940-40d5133a6194")
 		)
 		(pin "113"
-			(uuid "c161df25-aa9c-41ed-a6d9-e0da92027245")
+			(uuid "c161df25-aa9c-41ed-a6d9-e0da92027246")
 		)
 		(pin "118"
-			(uuid "3133ae15-70b3-4d4a-b573-f3987b070b84")
+			(uuid "3133ae15-70b3-4d4a-b573-f3987b070b85")
 		)
 		(pin "139"
-			(uuid "9c4a318d-4ca9-476e-98ab-a97c8aee7c1c")
+			(uuid "9c4a318d-4ca9-476e-98ab-a97c8aee7c1d")
 		)
 		(pin "122"
-			(uuid "f4909e17-56d5-4848-a244-2769832f2041")
+			(uuid "f4909e17-56d5-4848-a244-2769832f2042")
 		)
 		(pin "134"
-			(uuid "d240f18d-4df8-492a-b365-101a4052bbb1")
+			(uuid "d240f18d-4df8-492a-b365-101a4052bbb2")
 		)
 		(pin "109"
-			(uuid "340dd451-946d-4688-a0e8-bbefcad45757")
+			(uuid "340dd451-946d-4688-a0e8-bbefcad45758")
 		)
 		(pin "137"
-			(uuid "87d1553d-9a78-405a-aabe-b4430738f6b5")
+			(uuid "87d1553d-9a78-405a-aabe-b4430738f6b6")
 		)
 		(pin "136"
-			(uuid "cd775b16-3e63-4149-9fa1-e6da0871f9ef")
+			(uuid "cd775b16-3e63-4149-9fa1-e6da0871f9f0")
 		)
 		(pin "100"
-			(uuid "a87adadc-44da-4a9b-8dd5-213cc27da164")
+			(uuid "a87adadc-44da-4a9b-8dd5-213cc27da165")
 		)
 		(pin "123"
-			(uuid "97f2a920-8428-44be-907a-4debe8200124")
+			(uuid "97f2a920-8428-44be-907a-4debe8200125")
 		)
 		(pin "103"
-			(uuid "93867818-2795-4f1c-9080-b9657fb29cac")
+			(uuid "93867818-2795-4f1c-9080-b9657fb29cad")
 		)
 		(pin "99"
-			(uuid "6e029b5a-9a90-459d-8f8c-a90d93e80757")
+			(uuid "6e029b5a-9a90-459d-8f8c-a90d93e80758")
 		)
 		(pin "135"
-			(uuid "2597e533-3589-4dc7-9d06-fe758910eeb7")
+			(uuid "2597e533-3589-4dc7-9d06-fe758910eeb8")
 		)
 		(pin "119"
-			(uuid "65d5a283-af9b-4125-a211-abd52f97a552")
+			(uuid "65d5a283-af9b-4125-a211-abd52f97a553")
 		)
 		(pin "110"
-			(uuid "a8325dcf-1d99-4bf0-ae4c-a0a29a8f85fb")
+			(uuid "a8325dcf-1d99-4bf0-ae4c-a0a29a8f85fc")
 		)
 		(pin "102"
-			(uuid "a5216201-d11c-41a7-b684-002f46d26873")
+			(uuid "a5216201-d11c-41a7-b684-002f46d26874")
 		)
 		(pin "98"
-			(uuid "c0ebaa27-992b-4296-ab36-06b844f64cdc")
+			(uuid "c0ebaa27-992b-4296-ab36-06b844f64cdd")
 		)
 		(pin "105"
-			(uuid "5af7eb7c-dc6a-4f29-9bf7-6e33ceb48114")
+			(uuid "5af7eb7c-dc6a-4f29-9bf7-6e33ceb48115")
 		)
 		(pin "104"
-			(uuid "f2e7baa1-0417-4ac2-b2ed-88889d649832")
+			(uuid "f2e7baa1-0417-4ac2-b2ed-88889d649833")
 		)
 		(pin "96"
-			(uuid "32cc98ee-6f38-465e-897c-432de200a9cb")
+			(uuid "32cc98ee-6f38-465e-897c-432de200a9cc")
 		)
 		(pin "117"
-			(uuid "41f61124-cd53-4f01-8372-880bbed63f5d")
+			(uuid "41f61124-cd53-4f01-8372-880bbed63f5e")
 		)
 		(pin "140"
-			(uuid "13f2608a-dc3f-4baf-9c55-4fdce93ea91e")
+			(uuid "13f2608a-dc3f-4baf-9c55-4fdce93ea91f")
 		)
 		(pin "111"
-			(uuid "384bbd1f-9c44-4c1d-9e63-7a085fc677bb")
+			(uuid "384bbd1f-9c44-4c1d-9e63-7a085fc677bc")
 		)
 		(pin "97"
-			(uuid "362c0095-ca96-4c97-b2c4-fdfdd48f61b2")
+			(uuid "362c0095-ca96-4c97-b2c4-fdfdd48f61b3")
 		)
 		(pin "112"
-			(uuid "5524acfe-cb5c-4f82-b9d7-92b6148be25f")
+			(uuid "5524acfe-cb5c-4f82-b9d7-92b6148be260")
 		)
 		(pin "101"
-			(uuid "d10a1170-7378-427d-a5d1-cff40411eabf")
+			(uuid "d10a1170-7378-427d-a5d1-cff40411eac0")
 		)
 		(pin "2"
-			(uuid "81dbeff0-38db-4a7d-92a2-d5c2d3669ab8")
+			(uuid "81dbeff0-38db-4a7d-92a2-d5c2d3669ab9")
 		)
 		(pin "1"
-			(uuid "7c726eb2-533c-489a-9e5a-29524220ab8d")
+			(uuid "7c726eb2-533c-489a-9e5a-29524220ab8e")
 		)
 		(pin "115"
-			(uuid "8d603d21-0e0e-4346-8b46-e879393b0f27")
+			(uuid "8d603d21-0e0e-4346-8b46-e879393b0f28")
 		)
 		(pin "116"
-			(uuid "67b3c89c-eb4e-4601-b93a-9080b0dd4b2b")
+			(uuid "67b3c89c-eb4e-4601-b93a-9080b0dd4b2c")
 		)
 		(pin "24"
-			(uuid "c8882b39-5a83-4477-bef0-3959a35cf3b4")
+			(uuid "c8882b39-5a83-4477-bef0-3959a35cf3b5")
 		)
 		(pin "14"
-			(uuid "94f2d02c-1449-4e8b-8011-b53428ec45dc")
+			(uuid "94f2d02c-1449-4e8b-8011-b53428ec45dd")
 		)
 		(pin "21"
-			(uuid "c578db16-2a26-44c0-b23a-4371f6468616")
+			(uuid "c578db16-2a26-44c0-b23a-4371f6468617")
 		)
 		(pin "22"
-			(uuid "f327ef94-02fc-443a-9a0b-beb0aa0278f4")
+			(uuid "f327ef94-02fc-443a-9a0b-beb0aa0278f5")
 		)
 		(pin "50"
-			(uuid "e69c8b21-ad4a-4541-b024-0b5ba9013abe")
+			(uuid "e69c8b21-ad4a-4541-b024-0b5ba9013abf")
 		)
 		(pin "4"
-			(uuid "6fdf2e92-381d-413d-a4d4-13ecf7a459ad")
+			(uuid "6fdf2e92-381d-413d-a4d4-13ecf7a459ae")
 		)
 		(pin "19"
-			(uuid "ea6ffbc0-62f3-45d6-81c0-f1fd01a53b23")
+			(uuid "ea6ffbc0-62f3-45d6-81c0-f1fd01a53b24")
 		)
 		(pin "49"
-			(uuid "75d2bffa-1e67-4081-8d43-e1f2dffb2f1a")
+			(uuid "75d2bffa-1e67-4081-8d43-e1f2dffb2f1b")
 		)
 		(pin "54"
-			(uuid "188da9d6-21b2-459c-b79b-53a7a6e06ff1")
+			(uuid "188da9d6-21b2-459c-b79b-53a7a6e06ff2")
 		)
 		(pin "60"
-			(uuid "ca130ce6-2a72-4832-b04e-365a52514b01")
+			(uuid "ca130ce6-2a72-4832-b04e-365a52514b02")
 		)
 		(pin "11"
-			(uuid "c1e2d74c-4b71-47e6-9fd0-797f538e4eba")
+			(uuid "c1e2d74c-4b71-47e6-9fd0-797f538e4ebb")
 		)
 		(pin "67"
-			(uuid "e75c1ccb-c9f1-40cd-931c-786081be8087")
+			(uuid "e75c1ccb-c9f1-40cd-931c-786081be8088")
 		)
 		(pin "5"
-			(uuid "5f6b09d5-10db-443c-9a56-4d9b11c469a4")
+			(uuid "5f6b09d5-10db-443c-9a56-4d9b11c469a5")
 		)
 		(pin "13"
-			(uuid "ecc656f0-1223-4271-8e4b-177b4369ff74")
+			(uuid "ecc656f0-1223-4271-8e4b-177b4369ff75")
 		)
 		(pin "65"
-			(uuid "2f34055e-c3f6-4430-98ed-ef8e02728bf5")
+			(uuid "2f34055e-c3f6-4430-98ed-ef8e02728bf6")
 		)
 		(pin "18"
-			(uuid "f3e1d8d3-0ec5-411e-9221-91f4877e346a")
+			(uuid "f3e1d8d3-0ec5-411e-9221-91f4877e346b")
 		)
 		(pin "25"
-			(uuid "fb2e6173-d93d-4315-9a42-8cef65ba51f1")
+			(uuid "fb2e6173-d93d-4315-9a42-8cef65ba51f2")
 		)
 		(pin "55"
-			(uuid "f69fb883-0312-4f27-97e2-cad87eb0226b")
+			(uuid "f69fb883-0312-4f27-97e2-cad87eb0226c")
 		)
 		(pin "58"
-			(uuid "6b4d5605-47fc-46cf-b561-e7ab9a877551")
+			(uuid "6b4d5605-47fc-46cf-b561-e7ab9a877552")
 		)
 		(pin "59"
-			(uuid "975024c3-0f7f-4c32-b7a1-4217a5774aab")
+			(uuid "975024c3-0f7f-4c32-b7a1-4217a5774aac")
 		)
 		(pin "23"
-			(uuid "5c14c894-c6d0-4bfc-adb7-911b3aab80c5")
+			(uuid "5c14c894-c6d0-4bfc-adb7-911b3aab80c6")
 		)
 		(pin "20"
-			(uuid "1c1543a0-dcc1-4210-9bdb-7b584dd63aee")
+			(uuid "1c1543a0-dcc1-4210-9bdb-7b584dd63aef")
 		)
 		(pin "63"
-			(uuid "e5c3e456-1642-4e0d-bf81-ec2a0efeba57")
+			(uuid "e5c3e456-1642-4e0d-bf81-ec2a0efeba58")
 		)
 		(pin "64"
-			(uuid "4a105997-c4d4-44b5-ada1-19f7c6cfda2f")
+			(uuid "4a105997-c4d4-44b5-ada1-19f7c6cfda30")
 		)
 		(pin "3"
-			(uuid "001c5b7e-e836-45bc-aa5a-5410bbd164c9")
+			(uuid "001c5b7e-e836-45bc-aa5a-5410bbd164ca")
 		)
 		(pin "15"
-			(uuid "b4f22012-1c4a-4c72-ba7b-cd4c5063f815")
+			(uuid "b4f22012-1c4a-4c72-ba7b-cd4c5063f816")
 		)
 		(pin "53"
-			(uuid "65b5df80-1fdd-48c8-a181-f69bc4a14ead")
+			(uuid "65b5df80-1fdd-48c8-a181-f69bc4a14eae")
 		)
 		(pin "10"
-			(uuid "faf3387f-fbc8-479f-84b0-8955a43674d1")
+			(uuid "faf3387f-fbc8-479f-84b0-8955a43674d2")
 		)
 		(pin "56"
-			(uuid "bf85f3c0-38a4-4889-89df-a259009e7d7e")
+			(uuid "bf85f3c0-38a4-4889-89df-a259009e7d7f")
 		)
 		(pin "66"
-			(uuid "c7e4a4ad-99ba-4bc4-99c2-ed08bd2ff480")
+			(uuid "c7e4a4ad-99ba-4bc4-99c2-ed08bd2ff481")
 		)
 		(pin "57"
-			(uuid "dcd3be77-67d6-4941-9e62-48013362a0a7")
+			(uuid "dcd3be77-67d6-4941-9e62-48013362a0a8")
 		)
 		(pin "12"
-			(uuid "066c6213-6126-43ba-919c-57b4a33a053f")
+			(uuid "066c6213-6126-43ba-919c-57b4a33a0540")
 		)
 		(pin "92"
-			(uuid "956a81eb-37cf-4c2b-aada-8cdde14940f8")
+			(uuid "956a81eb-37cf-4c2b-aada-8cdde14940f9")
 		)
 		(pin "87"
-			(uuid "8b154d44-b2a3-4a8b-9a09-ca48ca0e1de9")
+			(uuid "8b154d44-b2a3-4a8b-9a09-ca48ca0e1dea")
 		)
 		(pin "126"
-			(uuid "0abf10c8-62d1-4889-afb9-f3be973cd163")
+			(uuid "0abf10c8-62d1-4889-afb9-f3be973cd164")
 		)
 		(pin "132"
-			(uuid "f71c14cf-231e-42c8-a472-cb5989ac7626")
+			(uuid "f71c14cf-231e-42c8-a472-cb5989ac7627")
 		)
 		(pin "88"
-			(uuid "d2109ec5-5965-4d86-aa2b-63620f7f66b8")
+			(uuid "d2109ec5-5965-4d86-aa2b-63620f7f66b9")
 		)
 		(pin "89"
-			(uuid "18db0244-18f3-4fef-9ee1-da78f7df4f5d")
+			(uuid "18db0244-18f3-4fef-9ee1-da78f7df4f5e")
 		)
 		(pin "127"
-			(uuid "37087699-b1c3-438b-a16f-dc01ed5e01e5")
+			(uuid "37087699-b1c3-438b-a16f-dc01ed5e01e6")
 		)
 		(pin "90"
-			(uuid "23b63086-bad9-4954-ae0d-d31d44df16b2")
+			(uuid "23b63086-bad9-4954-ae0d-d31d44df16b3")
 		)
 		(pin "91"
-			(uuid "823288a2-9252-42bd-b908-0b776ebfc583")
+			(uuid "823288a2-9252-42bd-b908-0b776ebfc584")
 		)
 		(pin "129"
-			(uuid "a79f9684-aa72-445b-af35-6ace5b35c7e3")
+			(uuid "a79f9684-aa72-445b-af35-6ace5b35c7e4")
 		)
 		(pin "128"
-			(uuid "5338cf26-58ca-40a8-afc6-1121abed3e7f")
+			(uuid "5338cf26-58ca-40a8-afc6-1121abed3e80")
 		)
 		(pin "93"
-			(uuid "5336bc19-4e99-4efa-9038-601f211d5cf4")
+			(uuid "5336bc19-4e99-4efa-9038-601f211d5cf5")
 		)
 		(pin "125"
-			(uuid "74a9a6dc-e6f2-4430-8e42-7c02201cc133")
+			(uuid "74a9a6dc-e6f2-4430-8e42-7c02201cc134")
 		)
 		(pin "124"
-			(uuid "6b3a858a-de46-4939-8a22-9696d4c97d03")
+			(uuid "6b3a858a-de46-4939-8a22-9696d4c97d04")
 		)
 		(pin "68"
-			(uuid "24d5f6a9-394a-4a06-a7ca-5fec20eaf3f9")
+			(uuid "24d5f6a9-394a-4a06-a7ca-5fec20eaf3fa")
 		)
 		(pin "27"
-			(uuid "7a4499c8-37b2-46f9-adee-8fae9a463e17")
+			(uuid "7a4499c8-37b2-46f9-adee-8fae9a463e18")
 		)
 		(pin "43"
-			(uuid "4a4703b0-6eca-4011-a179-8d5e56ed4511")
+			(uuid "4a4703b0-6eca-4011-a179-8d5e56ed4512")
 		)
 		(pin "7"
-			(uuid "a4cffb93-58fc-42d4-a6b8-850f7299e9ed")
+			(uuid "a4cffb93-58fc-42d4-a6b8-850f7299e9ee")
 		)
 		(pin "29"
-			(uuid "a7950d8f-459b-4499-b040-589ab367b249")
+			(uuid "a7950d8f-459b-4499-b040-589ab367b24a")
 		)
 		(pin "40"
-			(uuid "1b8fe26d-7128-4c2c-a56a-5900b4cb49c2")
+			(uuid "1b8fe26d-7128-4c2c-a56a-5900b4cb49c3")
 		)
 		(pin "42"
-			(uuid "e58828ca-2066-4791-8515-b38f892bf921")
+			(uuid "e58828ca-2066-4791-8515-b38f892bf922")
 		)
 		(pin "41"
-			(uuid "2b2822bf-e234-49f3-a7ad-b45650ab9f90")
+			(uuid "2b2822bf-e234-49f3-a7ad-b45650ab9f91")
 		)
 		(pin "44"
-			(uuid "fb79fc99-10ca-49a3-9ddb-f998662f37cf")
+			(uuid "fb79fc99-10ca-49a3-9ddb-f998662f37d0")
 		)
 		(pin "36"
-			(uuid "8395d004-7e09-411f-a89f-5657bde87204")
+			(uuid "8395d004-7e09-411f-a89f-5657bde87205")
 		)
 		(pin "9"
-			(uuid "a76b7836-bcdb-4d80-9e17-e4bc89b7c821")
+			(uuid "a76b7836-bcdb-4d80-9e17-e4bc89b7c822")
 		)
 		(pin "34"
-			(uuid "d5b782cd-a5f7-4440-9c3c-fcf21372d3db")
+			(uuid "d5b782cd-a5f7-4440-9c3c-fcf21372d3dc")
 		)
 		(pin "8"
-			(uuid "12b15c17-55e1-4d4f-9dd8-62eb291d6800")
+			(uuid "12b15c17-55e1-4d4f-9dd8-62eb291d6801")
 		)
 		(pin "35"
-			(uuid "8d7bbbcb-7ac3-417a-9d31-80fee67cae6c")
+			(uuid "8d7bbbcb-7ac3-417a-9d31-80fee67cae6d")
 		)
 		(pin "37"
-			(uuid "2406a30c-5bc3-4cff-a163-8546ce3b01e6")
+			(uuid "2406a30c-5bc3-4cff-a163-8546ce3b01e7")
 		)
 		(pin "28"
-			(uuid "74268c27-e00a-4122-85f0-815848d50985")
+			(uuid "74268c27-e00a-4122-85f0-815848d50986")
 		)
 		(pin "45"
-			(uuid "492eddfe-9c86-40a3-a230-71af574a6fc8")
+			(uuid "492eddfe-9c86-40a3-a230-71af574a6fc9")
 		)
 		(pin "26"
-			(uuid "521a6718-8b5d-48c5-886e-20023f2c1bf2")
+			(uuid "521a6718-8b5d-48c5-886e-20023f2c1bf3")
 		)
 		(instances
 			(project "aero_sense"
 				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:STM32F415ZGT6")
+		(at 346.71 85.09 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4f741e2-384a-45c8-88b9-90297cc55966")
+		(property "Reference" "U1"
+			(at 372.11 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "STM32F415ZGT6"
+			(at 372.11 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyComponents:LQFP144-20x20mm"
+			(at 346.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f415rg.pdf"
+			(at 346.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "73"
+			(uuid "c2f23a7a-1794-46dc-81d2-438a2087467e")
+		)
+		(pin "82"
+			(uuid "a940aea4-6596-4700-8594-59d3e6c75cc2")
+		)
+		(pin "70"
+			(uuid "b5ce481b-401e-4f5e-94bb-b8575f41f900")
+		)
+		(pin "80"
+			(uuid "9a993c39-26dd-437b-b1d7-a904b584d5da")
+		)
+		(pin "46"
+			(uuid "fc795f0e-beff-425e-afeb-9b4c7c240c57")
+		)
+		(pin "79"
+			(uuid "38c6e11f-3bba-4375-850a-130bf351445d")
+		)
+		(pin "77"
+			(uuid "d18bce7c-9a39-4a94-853a-9bd043756afd")
+		)
+		(pin "76"
+			(uuid "3bbcd4ee-9b2b-40fa-b235-13b996aa0fe8")
+		)
+		(pin "47"
+			(uuid "71af9bc1-23d0-4b7d-93a7-1ebd8a2e52d7")
+		)
+		(pin "81"
+			(uuid "df62a6b1-e771-4283-9ce0-9ab3c80e28fe")
+		)
+		(pin "75"
+			(uuid "aadd2153-ae91-48a4-a375-f3aa5c62a71e")
+		)
+		(pin "85"
+			(uuid "f2ab33b8-5a21-41b9-83c6-ec05b9e1b29e")
+		)
+		(pin "78"
+			(uuid "1afd5590-40aa-412b-9185-fb8dbe382401")
+		)
+		(pin "48"
+			(uuid "e44d8230-aae7-48ef-9ac9-2aba9a9802cc")
+		)
+		(pin "69"
+			(uuid "7ec67a30-b2cd-4b14-b941-94e066c6afc0")
+		)
+		(pin "74"
+			(uuid "35fc8523-6435-4e65-a0c0-21e111b166c7")
+		)
+		(pin "86"
+			(uuid "1172737c-f7d1-4a78-9cdb-a27775a7dd09")
+		)
+		(pin "6"
+			(uuid "1c91436f-33aa-4532-825a-3be505fd3b87")
+		)
+		(pin "138"
+			(uuid "17f934bd-ed98-404f-9a95-00f6c48cc224")
+		)
+		(pin "142"
+			(uuid "7e77a9e2-af66-4531-8aec-87dd3adff60e")
+		)
+		(pin "143"
+			(uuid "255c4db1-8d5d-421b-ba11-1ea25e189eb4")
+		)
+		(pin "141"
+			(uuid "3db5b827-691a-4451-8780-0ae8913ba9b2")
+		)
+		(pin "32"
+			(uuid "df331998-7794-4449-9fb2-9d7e90318de4")
+		)
+		(pin "108"
+			(uuid "4da991a3-4e36-4a39-a10e-c9a25649a5bb")
+		)
+		(pin "31"
+			(uuid "56f14d55-a0d4-444b-9474-cdfdea7facc6")
+		)
+		(pin "16"
+			(uuid "2e787c2d-b1dd-408c-9a5d-b9028bd9d659")
+		)
+		(pin "61"
+			(uuid "9fa6a4f0-b3b7-47cd-a638-c6a37f651eba")
+		)
+		(pin "106"
+			(uuid "54746887-7f9f-4880-a3a4-456bb175a5cf")
+		)
+		(pin "95"
+			(uuid "b05ccf0e-15f4-4315-a771-9cf7cbfc67e4")
+		)
+		(pin "107"
+			(uuid "5aa2530c-5ba4-4edb-bd02-fcf59a7917f6")
+		)
+		(pin "84"
+			(uuid "8dd69431-4fb0-486c-8ee0-0db2e1e063af")
+		)
+		(pin "52"
+			(uuid "206831b4-22e0-41ff-a1d8-e8c66ee6c580")
+		)
+		(pin "94"
+			(uuid "c0dbcb06-44f1-4dfe-9846-4b01078a1ac1")
+		)
+		(pin "71"
+			(uuid "9d1b46a8-63d2-40d4-af27-cf64192b8d02")
+		)
+		(pin "72"
+			(uuid "648c8cef-aa0f-4d51-aa11-836b5ec15255")
+		)
+		(pin "30"
+			(uuid "f24392c0-bbc2-41bf-8a13-577538f83fe7")
+		)
+		(pin "62"
+			(uuid "92e4ee5a-d169-4435-9c76-24bcaed0e642")
+		)
+		(pin "38"
+			(uuid "ef761566-d487-41bb-a091-357e3b623e38")
+		)
+		(pin "120"
+			(uuid "6cea2a6d-56d0-4cc6-b38d-df389cc6f41a")
+		)
+		(pin "51"
+			(uuid "d35e055f-492a-422c-98e8-fb692d4a9478")
+		)
+		(pin "39"
+			(uuid "d90d45ff-55a9-4621-bd3a-f4ceae5895d8")
+		)
+		(pin "83"
+			(uuid "1d557154-acec-4d3d-a00d-b1ff1b4e2162")
+		)
+		(pin "33"
+			(uuid "c921c8ce-fa54-49ce-8555-c480151cd427")
+		)
+		(pin "17"
+			(uuid "9873e92d-6f52-4fe5-b833-2bc74d89ae5c")
+		)
+		(pin "121"
+			(uuid "f6fcb2a8-d342-4a1f-8e9e-02478f357f7b")
+		)
+		(pin "130"
+			(uuid "3bd3b176-9b20-40e1-96be-e6050c52f41a")
+		)
+		(pin "144"
+			(uuid "6423c9f3-35d8-48ba-aacb-3f02234e3cd9")
+		)
+		(pin "131"
+			(uuid "88bf2e07-61f5-45b6-b618-eb51ddbd3ff4")
+		)
+		(pin "133"
+			(uuid "0b546f03-015b-4899-b84c-a25366e986a5")
+		)
+		(pin "114"
+			(uuid "c9655b5a-100d-41c1-8940-40d5133a6195")
+		)
+		(pin "113"
+			(uuid "c161df25-aa9c-41ed-a6d9-e0da92027247")
+		)
+		(pin "118"
+			(uuid "3133ae15-70b3-4d4a-b573-f3987b070b86")
+		)
+		(pin "139"
+			(uuid "9c4a318d-4ca9-476e-98ab-a97c8aee7c1e")
+		)
+		(pin "122"
+			(uuid "f4909e17-56d5-4848-a244-2769832f2043")
+		)
+		(pin "134"
+			(uuid "d240f18d-4df8-492a-b365-101a4052bbb3")
+		)
+		(pin "109"
+			(uuid "340dd451-946d-4688-a0e8-bbefcad45759")
+		)
+		(pin "137"
+			(uuid "87d1553d-9a78-405a-aabe-b4430738f6b7")
+		)
+		(pin "136"
+			(uuid "cd775b16-3e63-4149-9fa1-e6da0871f9f1")
+		)
+		(pin "100"
+			(uuid "a87adadc-44da-4a9b-8dd5-213cc27da166")
+		)
+		(pin "123"
+			(uuid "97f2a920-8428-44be-907a-4debe8200126")
+		)
+		(pin "103"
+			(uuid "93867818-2795-4f1c-9080-b9657fb29cae")
+		)
+		(pin "99"
+			(uuid "6e029b5a-9a90-459d-8f8c-a90d93e80759")
+		)
+		(pin "135"
+			(uuid "2597e533-3589-4dc7-9d06-fe758910eeb9")
+		)
+		(pin "119"
+			(uuid "65d5a283-af9b-4125-a211-abd52f97a554")
+		)
+		(pin "110"
+			(uuid "a8325dcf-1d99-4bf0-ae4c-a0a29a8f85fd")
+		)
+		(pin "102"
+			(uuid "a5216201-d11c-41a7-b684-002f46d26875")
+		)
+		(pin "98"
+			(uuid "c0ebaa27-992b-4296-ab36-06b844f64cde")
+		)
+		(pin "105"
+			(uuid "5af7eb7c-dc6a-4f29-9bf7-6e33ceb48116")
+		)
+		(pin "104"
+			(uuid "f2e7baa1-0417-4ac2-b2ed-88889d649834")
+		)
+		(pin "96"
+			(uuid "32cc98ee-6f38-465e-897c-432de200a9cd")
+		)
+		(pin "117"
+			(uuid "41f61124-cd53-4f01-8372-880bbed63f5f")
+		)
+		(pin "140"
+			(uuid "13f2608a-dc3f-4baf-9c55-4fdce93ea920")
+		)
+		(pin "111"
+			(uuid "384bbd1f-9c44-4c1d-9e63-7a085fc677bd")
+		)
+		(pin "97"
+			(uuid "362c0095-ca96-4c97-b2c4-fdfdd48f61b4")
+		)
+		(pin "112"
+			(uuid "5524acfe-cb5c-4f82-b9d7-92b6148be261")
+		)
+		(pin "101"
+			(uuid "d10a1170-7378-427d-a5d1-cff40411eac1")
+		)
+		(pin "2"
+			(uuid "81dbeff0-38db-4a7d-92a2-d5c2d3669aba")
+		)
+		(pin "1"
+			(uuid "7c726eb2-533c-489a-9e5a-29524220ab8f")
+		)
+		(pin "115"
+			(uuid "8d603d21-0e0e-4346-8b46-e879393b0f29")
+		)
+		(pin "116"
+			(uuid "67b3c89c-eb4e-4601-b93a-9080b0dd4b2d")
+		)
+		(pin "24"
+			(uuid "c8882b39-5a83-4477-bef0-3959a35cf3b6")
+		)
+		(pin "14"
+			(uuid "94f2d02c-1449-4e8b-8011-b53428ec45de")
+		)
+		(pin "21"
+			(uuid "c578db16-2a26-44c0-b23a-4371f6468618")
+		)
+		(pin "22"
+			(uuid "f327ef94-02fc-443a-9a0b-beb0aa0278f6")
+		)
+		(pin "50"
+			(uuid "e69c8b21-ad4a-4541-b024-0b5ba9013ac0")
+		)
+		(pin "4"
+			(uuid "6fdf2e92-381d-413d-a4d4-13ecf7a459af")
+		)
+		(pin "19"
+			(uuid "ea6ffbc0-62f3-45d6-81c0-f1fd01a53b25")
+		)
+		(pin "49"
+			(uuid "75d2bffa-1e67-4081-8d43-e1f2dffb2f1c")
+		)
+		(pin "54"
+			(uuid "188da9d6-21b2-459c-b79b-53a7a6e06ff3")
+		)
+		(pin "60"
+			(uuid "ca130ce6-2a72-4832-b04e-365a52514b03")
+		)
+		(pin "11"
+			(uuid "c1e2d74c-4b71-47e6-9fd0-797f538e4ebc")
+		)
+		(pin "67"
+			(uuid "e75c1ccb-c9f1-40cd-931c-786081be8089")
+		)
+		(pin "5"
+			(uuid "5f6b09d5-10db-443c-9a56-4d9b11c469a6")
+		)
+		(pin "13"
+			(uuid "ecc656f0-1223-4271-8e4b-177b4369ff76")
+		)
+		(pin "65"
+			(uuid "2f34055e-c3f6-4430-98ed-ef8e02728bf7")
+		)
+		(pin "18"
+			(uuid "f3e1d8d3-0ec5-411e-9221-91f4877e346c")
+		)
+		(pin "25"
+			(uuid "fb2e6173-d93d-4315-9a42-8cef65ba51f3")
+		)
+		(pin "55"
+			(uuid "f69fb883-0312-4f27-97e2-cad87eb0226d")
+		)
+		(pin "58"
+			(uuid "6b4d5605-47fc-46cf-b561-e7ab9a877553")
+		)
+		(pin "59"
+			(uuid "975024c3-0f7f-4c32-b7a1-4217a5774aad")
+		)
+		(pin "23"
+			(uuid "5c14c894-c6d0-4bfc-adb7-911b3aab80c7")
+		)
+		(pin "20"
+			(uuid "1c1543a0-dcc1-4210-9bdb-7b584dd63af0")
+		)
+		(pin "63"
+			(uuid "e5c3e456-1642-4e0d-bf81-ec2a0efeba59")
+		)
+		(pin "64"
+			(uuid "4a105997-c4d4-44b5-ada1-19f7c6cfda31")
+		)
+		(pin "3"
+			(uuid "001c5b7e-e836-45bc-aa5a-5410bbd164cb")
+		)
+		(pin "15"
+			(uuid "b4f22012-1c4a-4c72-ba7b-cd4c5063f817")
+		)
+		(pin "53"
+			(uuid "65b5df80-1fdd-48c8-a181-f69bc4a14eaf")
+		)
+		(pin "10"
+			(uuid "faf3387f-fbc8-479f-84b0-8955a43674d3")
+		)
+		(pin "56"
+			(uuid "bf85f3c0-38a4-4889-89df-a259009e7d80")
+		)
+		(pin "66"
+			(uuid "c7e4a4ad-99ba-4bc4-99c2-ed08bd2ff482")
+		)
+		(pin "57"
+			(uuid "dcd3be77-67d6-4941-9e62-48013362a0a9")
+		)
+		(pin "12"
+			(uuid "066c6213-6126-43ba-919c-57b4a33a0541")
+		)
+		(pin "92"
+			(uuid "956a81eb-37cf-4c2b-aada-8cdde14940fa")
+		)
+		(pin "87"
+			(uuid "8b154d44-b2a3-4a8b-9a09-ca48ca0e1deb")
+		)
+		(pin "126"
+			(uuid "0abf10c8-62d1-4889-afb9-f3be973cd165")
+		)
+		(pin "132"
+			(uuid "f71c14cf-231e-42c8-a472-cb5989ac7628")
+		)
+		(pin "88"
+			(uuid "d2109ec5-5965-4d86-aa2b-63620f7f66ba")
+		)
+		(pin "89"
+			(uuid "18db0244-18f3-4fef-9ee1-da78f7df4f5f")
+		)
+		(pin "127"
+			(uuid "37087699-b1c3-438b-a16f-dc01ed5e01e7")
+		)
+		(pin "90"
+			(uuid "23b63086-bad9-4954-ae0d-d31d44df16b4")
+		)
+		(pin "91"
+			(uuid "823288a2-9252-42bd-b908-0b776ebfc585")
+		)
+		(pin "129"
+			(uuid "a79f9684-aa72-445b-af35-6ace5b35c7e5")
+		)
+		(pin "128"
+			(uuid "5338cf26-58ca-40a8-afc6-1121abed3e81")
+		)
+		(pin "93"
+			(uuid "5336bc19-4e99-4efa-9038-601f211d5cf6")
+		)
+		(pin "125"
+			(uuid "74a9a6dc-e6f2-4430-8e42-7c02201cc135")
+		)
+		(pin "124"
+			(uuid "6b3a858a-de46-4939-8a22-9696d4c97d05")
+		)
+		(pin "68"
+			(uuid "24d5f6a9-394a-4a06-a7ca-5fec20eaf3fb")
+		)
+		(pin "27"
+			(uuid "7a4499c8-37b2-46f9-adee-8fae9a463e19")
+		)
+		(pin "43"
+			(uuid "4a4703b0-6eca-4011-a179-8d5e56ed4513")
+		)
+		(pin "7"
+			(uuid "a4cffb93-58fc-42d4-a6b8-850f7299e9ef")
+		)
+		(pin "29"
+			(uuid "a7950d8f-459b-4499-b040-589ab367b24b")
+		)
+		(pin "40"
+			(uuid "1b8fe26d-7128-4c2c-a56a-5900b4cb49c4")
+		)
+		(pin "42"
+			(uuid "e58828ca-2066-4791-8515-b38f892bf923")
+		)
+		(pin "41"
+			(uuid "2b2822bf-e234-49f3-a7ad-b45650ab9f92")
+		)
+		(pin "44"
+			(uuid "fb79fc99-10ca-49a3-9ddb-f998662f37d1")
+		)
+		(pin "36"
+			(uuid "8395d004-7e09-411f-a89f-5657bde87206")
+		)
+		(pin "9"
+			(uuid "a76b7836-bcdb-4d80-9e17-e4bc89b7c823")
+		)
+		(pin "34"
+			(uuid "d5b782cd-a5f7-4440-9c3c-fcf21372d3dd")
+		)
+		(pin "8"
+			(uuid "12b15c17-55e1-4d4f-9dd8-62eb291d6802")
+		)
+		(pin "35"
+			(uuid "8d7bbbcb-7ac3-417a-9d31-80fee67cae6e")
+		)
+		(pin "37"
+			(uuid "2406a30c-5bc3-4cff-a163-8546ce3b01e8")
+		)
+		(pin "28"
+			(uuid "74268c27-e00a-4122-85f0-815848d50987")
+		)
+		(pin "45"
+			(uuid "492eddfe-9c86-40a3-a230-71af574a6fca")
+		)
+		(pin "26"
+			(uuid "521a6718-8b5d-48c5-886e-20023f2c1bf4")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 433.07 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e96688a9-de82-4b02-89a3-159bb6f03fe4")
+		(property "Reference" "FB1"
+			(at 433.0192 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 433.0192 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 433.07 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 433.07 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e28fbf7b-c18b-44ee-a928-5b0853e3df85")
+		)
+		(pin "2"
+			(uuid "f881ac47-e7a7-4554-9f35-76faa3784ef3")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:SGP41-D-R4")
+		(at 132.08 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9759707-61b4-48c6-a6de-ce92aabd466b")
+		(property "Reference" "U3"
+			(at 132.08 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SGP41-D-R4"
+			(at 132.08 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MyComponents:XDCR_SGP41-D-R4"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Air Quality Sensor VOC and NOx Gas Sensor 3.3V 6-Pin DFN EP"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Sensirion"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.95 mm"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SGP41-D-R4/Sensirion/view-part/?ref=eda"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SGP41-D-R4/Sensirion/view-part/?ref=snap"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "SGP41-D-R4"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Sensirion"
+			(at 132.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "4"
+			(uuid "e03b24da-cbdc-4e8a-963e-98b56a0c9c1c")
+		)
+		(pin "6"
+			(uuid "2316b66d-d9f8-4a1b-b44b-c05d4ebf8f98")
+		)
+		(pin "1"
+			(uuid "0ca9c3e3-2c49-49bc-86e7-c3e82df124d0")
+		)
+		(pin "7"
+			(uuid "a6861cbb-1ce5-461d-8e2c-3cd742b93ef7")
+		)
+		(pin "3"
+			(uuid "ee2a7934-e36a-4d47-b41d-07516f61c1f1")
+		)
+		(pin "5"
+			(uuid "70487385-3f60-4a46-a416-13a6b1f7451a")
+		)
+		(pin "2"
+			(uuid "5a9b76b6-72b2-407c-928b-dea62d8e4153")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 429.26 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee964d67-3558-43c3-9f32-cdcd52f2ef1c")
+		(property "Reference" "C13"
+			(at 433.07 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 433.07 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 430.2252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 429.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5de3cfe2-ad99-4403-9d18-29af9e79ef41")
+		)
+		(pin "2"
+			(uuid "e586d427-b837-4deb-84c3-e34bc93297d2")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 505.46 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7222a36-f621-4585-8484-5fdf93b75fb2")
+		(property "Reference" "C19"
+			(at 509.27 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 509.27 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 506.4252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 505.46 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 505.46 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc998530-5e07-4c7c-8c53-daa80eed5035")
+		)
+		(pin "2"
+			(uuid "0a09f562-31d6-428c-be4c-223a7b738b6b")
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(reference "C19")
+					(unit 1)
 				)
 			)
 		)
