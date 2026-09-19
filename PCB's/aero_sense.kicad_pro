@@ -483,6 +483,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -635,14 +636,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -657,17 +658,17 @@
     "top_level_sheets": [
       {
         "filename": "aero_sense.kicad_sch",
-        "name": "Root",
+        "name": "aero_sense",
         "uuid": "4d06510f-84fa-43e7-942b-130a75a96407"
       }
     ],
-    "used_designators": "#PWR1-4,E1,U1-8,R1,J1-5,FB1,C1-23",
+    "used_designators": "C1-54,#PWR1-16,U1-9,E1,FB1-2,R1-4,J1-4",
     "variants": []
   },
   "sheets": [
     [
       "4d06510f-84fa-43e7-942b-130a75a96407",
-      "Root"
+      "aero_sense"
     ],
     [
       "4ed06007-b8a3-40bc-883a-e24e83e9ccfe",
@@ -676,6 +677,10 @@
     [
       "a8ba04b8-6bcd-4912-9e0e-96b9625312aa",
       "Power"
+    ],
+    [
+      "e39450d7-7778-46a4-84da-9b9e0a143b6e",
+      "Top PCB"
     ]
   ],
   "text_variables": {},
