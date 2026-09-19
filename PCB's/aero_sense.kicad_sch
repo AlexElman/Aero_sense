@@ -18517,6 +18517,98 @@
 			)
 		)
 	)
+	(sheet
+		(at 317.5 177.8)
+		(size 355.6 203.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ed06007-b8a3-40bc-883a-e24e83e9ccfe")
+		(property "Sheetname" "Bottom PCB"
+			(at 317.5 177.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bottom_pcb.kicad_sch"
+			(at 317.5 381.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 -11.43)
+		(size 354.33 182.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a8ba04b8-6bcd-4912-9e0e-96b9625312aa")
+		(property "Sheetname" "Power"
+			(at 317.5 -12.1416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 317.5 172.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aero_sense"
+				(path "/4d06510f-84fa-43e7-942b-130a75a96407"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

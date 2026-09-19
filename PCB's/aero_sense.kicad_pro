@@ -668,6 +668,14 @@
     [
       "4d06510f-84fa-43e7-942b-130a75a96407",
       "Root"
+    ],
+    [
+      "4ed06007-b8a3-40bc-883a-e24e83e9ccfe",
+      "Bottom PCB"
+    ],
+    [
+      "a8ba04b8-6bcd-4912-9e0e-96b9625312aa",
+      "Power"
     ]
   ],
   "text_variables": {},
